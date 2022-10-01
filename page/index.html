@@ -18,28 +18,43 @@
 
     <title>Native Personal Web</title>
 </head>
-<body style="background-color: #cbd5e1;">
-    <header id="Navbar" class="container">
-        <div class="flex w-full" style="padding-top: 1rem; padding-bottom: 1rem; padding-left: 8rem; padding-right: 8rem;">
+<body>
+    <header id="navbar" class="container header">
+        <div class="flex w-full content" style="padding-top: 1rem; padding-bottom: 1rem;">
             <!-- Left Side -->
-            <div class="flex" style="width: 60%; justify-content: flex-start;">
+            <div class="flex" style="width: 50%; justify-content: flex-start;">
                 <a href="#Home" class="block text-lg font-bold transition" style="color: #f8fafc;">Muhammad Zaky Rahmadany</a>
             </div>
             <!-- Right Side -->
-            <div class="flex" style="width: 40%; justify-content: flex-end;">
-                <a href="#Home" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Home</a>
-                <a href="#About" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">About</a>
-                <a href="#Portfolio" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Portfolio</a>
-                <a href="#Blog" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Blog</a>
-                <a href="#Contact Us" class="primary block text-lg font-bold transition" style="">Contact Us</a>
+            <div class="flex" style="width: 50%; justify-content: flex-end;">
+                <a href="#home" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Home</a>
+                <a href="#about" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">About</a>
+                <a href="#portfolio" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Portfolio</a>
+                <a href="#blog" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Blog</a>
+                <a href="#contact" class="primary block text-lg font-bold transition" style="padding-right: 4rem;">Contact</a>
+                <!-- <button onclick="darkMode()">Dark Mode</button> -->
             </div>
         </div>
     </header>
-    <section id="Home"></section>
-    <section id="About"></section>
-    <section id="Portfolio"></section>
-    <section id="Blog"></section>
-    <section id="Contact Us"></section>
-    <footer id="Copywriter"></footer>
+    <section id="home" class="container flex">
+        <!-- Left Side -->
+        <div class="flex content" style="width: 50%; align-items: center; justify-content: center;">
+            <div>
+                <h1 class="text-4xl font-bold t-primary">Muhammad Zaky Rahmadany</h1>
+                <h2 class="text-2xl font-semibold t-sekunder">Junior Front-End Web Developer</h2>
+                <p class="text-lg font-medium t-content">Saya adalah seorang mahasiswa prodi S1 Teknik Informatika di Universitas Negeri Surabaya. Fokus bidang saya yaitu dibagian perancangan dan pengembangan website khususnya di bidang Front- End Developer. Dalam pembuatan sebuah website saya terbiasa menggunakan Tailwind atau Boostrap untuk mempercepat saya dalam membangun sebuah tampilan website yang responsive di setiap ukuran layar yang ada.</p>
+                <button class="b-primary font-semibold"><a href="#home">Hubungi</a></button>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="flex content" style="width: 50%; justify-content: center;">
+            <img src="../file/img/profile_zaky.png" alt="Foto Profile">
+        </div>
+    </section>
+    <section id="about"></section>
+    <section id="portfolio"></section>
+    <section id="blog"></section>
+    <section id="contact"></section>
+    <footer id="copywriter"></footer>
 </body>
 </html>
