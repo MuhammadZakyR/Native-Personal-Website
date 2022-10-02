@@ -11,6 +11,9 @@ body{
 a{
     text-decoration: none;
 }
+img{
+    opacity: 100%;
+}
 
 /* Id Customize */
 #navbar{
@@ -19,6 +22,7 @@ a{
     top: 0;
     overflow: hidden;
     z-index: 1;
+    /* box-shadow: 5px 10px inset; */
 }
 #home{
     padding-top: 8rem;
@@ -47,8 +51,11 @@ a{
     background-size: cover;
 }
 #blog{
-    margin-top: 8rem;
-    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    background-image: url("../file/img/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #contact{
     margin-top: 8rem;
@@ -58,6 +65,7 @@ a{
     opacity: 90%;
     position:absolute;
 }
+  
 /* Class Customize */
 .container{
     width: 100%;
@@ -99,7 +107,7 @@ a{
     opacity: 70%;
 }
 .navbar:active{
-    opacity: 85%;
+    opacity: 100%;
 }
 .c-about{
     background-color: #0d9488; 
@@ -117,6 +125,31 @@ a{
     border-width: 0.5rem;
     border-color: #134e4a;
     opacity: 90%;
+}
+.c-blog{
+    background-color: #0284c7;
+    padding-top: 1rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-bottom: 2.5rem; 
+    border-radius: 20px;
+    border-width: 0.5rem;
+    border-color: #075985;
+    opacity: 95%;
+}
+.c-paragraph{
+    background-color: #bae6fd; 
+    padding-top: 1rem; 
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    padding-bottom: 1rem; 
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-width: 0.5rem;
+    border-color: #075985;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .b-primary{
     color: #134e4a;
@@ -162,6 +195,29 @@ a{
     background-color: #f8fafc;
     border-width: 2px;
     border-color: #0f766e;
+    opacity: 80%;
+}
+.b-more{
+    color: #f8fafc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    background-color: #075985;
+    /* border-width: 1px; */
+    /* border-color: #f8fafc; */
+}
+.b-more:hover{
+    color:#f8fafc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    background-color: #075985;
+    /* border-width: 1px; */
+    /* border-color: #f8fafc; */
     opacity: 80%;
 }
 .t-primary{
