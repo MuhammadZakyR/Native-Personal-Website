@@ -1,6 +1,6 @@
 /* Tag Customize */
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 body{
     font-family: 'Poppins';
@@ -113,8 +113,8 @@ img{
 .c-about{
     background-color: #0d9488; 
     padding-top: 1rem; 
-    padding-left: 0.5rem; 
-    padding-right: 0.5rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
     padding-bottom: 2rem; 
     border-radius: 20px;
     opacity: 90%;
@@ -181,6 +181,9 @@ img{
     opacity: 80%;
     box-shadow: 0px 5px 5px 1px #115e59;
 
+}
+.icon-shaddow:hover{
+    box-shadow: 0px 5px 5px 1px #115e59;
 }
 .b-sekunder{
     color: #134e4a;
