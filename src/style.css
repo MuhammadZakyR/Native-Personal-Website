@@ -41,7 +41,10 @@ a{
 }
 #portfolio{
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
+    background-image: url("../file/img/portfolio-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #blog{
     margin-top: 8rem;
@@ -51,7 +54,10 @@ a{
     margin-top: 8rem;
     padding-bottom: 4rem;
 }
-
+#copywriter{
+    opacity: 90%;
+    position:absolute;
+}
 /* Class Customize */
 .container{
     width: 100%;
@@ -102,16 +108,15 @@ a{
     padding-right: 0.5rem; 
     padding-bottom: 2rem; 
     border-radius: 20px;
+    opacity: 90%;
 }
 .c-portfolio{
     background-color: #0d9488; 
-    padding-top: 2rem; 
-    padding-left: 2rem; 
-    padding-right: 2rem; 
-    padding-bottom: 4rem; 
+    padding: 2.5rem;
     border-radius: 20px;
     border-width: 0.5rem;
     border-color: #134e4a;
+    opacity: 90%;
 }
 .b-primary{
     color: #134e4a;
@@ -171,6 +176,10 @@ a{
 .t-sc-sekunder{
     color: #f0f9ff;
 }
+.text-copyright{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
 .text-base{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -204,6 +213,11 @@ a{
     font-size: 2.25rem;
     line-height: 2.5rem;
     font-weight: 600;
+}
+.sub-tittle{
+    font-size: 1.5rem;
+    line-height: 2rem;  
+    font-weight: 700;
 }
 .transition{
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
