@@ -58,10 +58,10 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#contact{
+/* #contact{
     margin-top: 8rem;
     padding-bottom: 4rem;
-}
+} */
 #copywriter{
     opacity: 90%;
     position:absolute;
@@ -121,7 +121,7 @@ img{
     box-shadow: 0px 10px 10px 5px #115e59;
 
 }
-.c-portfolio{
+.c-portfolio-st{
     background-color: #0d9488; 
     padding: 2.5rem;
     border-radius: 20px;
@@ -129,6 +129,16 @@ img{
     border-color: #134e4a;
     opacity: 90%;
     box-shadow: 0px 10px 10px 5px #115e59;
+
+}
+.c-portfolio-nd{
+    background-color: #0284c7; 
+    padding: 2.5rem;
+    border-radius: 20px;
+    border-width: 0.5rem;
+    border-color: #134e4a;
+    opacity: 90%;
+    box-shadow: 0px 10px 10px 5px #075985;
 
 }
 .c-blog{
