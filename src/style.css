@@ -179,6 +179,8 @@ img{
     border-width: 2px;
     border-color: #0f766e;
     opacity: 80%;
+    box-shadow: 0px 5px 5px 1px #115e59;
+
 }
 .b-sekunder{
     color: #134e4a;
@@ -225,6 +227,7 @@ img{
     /* border-width: 1px; */
     border-color: #f8fafc;
     opacity: 80%;
+    box-shadow: 0px 5px 5px 1px #075985;
 }
 .t-primary{
     color: #134e4a;
