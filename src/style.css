@@ -11,6 +11,9 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    opacity: 95%;
+}
 img{
     opacity: 100%;
 }
@@ -21,7 +24,7 @@ img{
     position:sticky;
     top: 0;
     overflow: hidden;
-    z-index: 1;
+    z-index: 9999;
     box-shadow: 0px 10px 10px 5px #115e59;
     /* box-shadow: 5px 10px inset; */
 }
@@ -65,6 +68,13 @@ img{
 #copywriter{
     opacity: 90%;
     position:absolute;
+    /* bottom: 0; */
+}
+#iklan{
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
 }
   
 /* Class Customize */
@@ -169,6 +179,18 @@ img{
     box-shadow: 0px 10px 10px 5px #075985;
     opacity: 95%;
 }
+.c-blog-nd{
+    background-color: #0d9488;
+    padding-top: 1rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-bottom: 2.5rem; 
+    border-radius: 20px;
+    border-width: 0.5rem;
+    border-color: #115e59;
+    box-shadow: 0px 10px 10px 5px #115e59;
+    opacity: 95%;
+}
 .c-paragraph{
     background-color: #bae6fd; 
     padding-top: 1rem; 
@@ -179,6 +201,20 @@ img{
     border-radius: 10px;
     border-width: 0.5rem;
     border-color: #075985;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.c-paragraph-nd{
+    background-color: #99f6e4; 
+    padding-top: 1rem; 
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    padding-bottom: 1rem; 
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-width: 0.5rem;
+    border-color: #115e59;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -257,6 +293,30 @@ img{
     border-color: #f8fafc;
     opacity: 80%;
     box-shadow: 0px 5px 5px 1px #075985;
+}
+.b-more-nd{
+    color: #f8fafc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    background-color: #115e59;
+    /* border-width: 1px; */
+    border-color: #f8fafc;
+}
+.b-more-nd:hover{
+    color:#f8fafc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    background-color: #115e59;
+    /* border-width: 1px; */
+    border-color: #f8fafc;
+    opacity: 80%;
+    box-shadow: 0px 5px 5px 1px #115e59;
 }
 .t-primary{
     color: #134e4a;

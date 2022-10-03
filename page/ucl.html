@@ -16,9 +16,199 @@
     <!-- JS -->
     <script src="../src/script.js"></script>
 
+    <!-- Internal CSS -->
+    <style>
+        /* Main Tittle */
+        h1{
+            font-size: 2.25rem;
+            line-height: 2.5rem; 
+            font-weight: 700;
+            color: #0f172a;
+        }
+        /* Sub Tittle */
+        h2{
+            font-size: 1.5rem;
+            line-height: 2rem; 
+            font-weight: 600;
+            color: #1e293b;
+        }
+        /* Code Content */
+        h3{
+            color: #e2e8f0;
+            background-color: #0f172a;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+            width: 100%;
+            font-family:'Courier New';
+        }
+        /* Breadcrumb */
+        h4{
+            font-size: 1.1255rem;
+            line-height: 1.75rem; 
+            font-weight: 600;
+            color: #1e293b;
+        }
+        /* Paragraph */
+        p{
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+            color: #0f172a;
+        }
+    </style>
+
     <title>Unix Command Line</title>
 </head>
 <body>
-
+    <header id="navbar" class="container header">
+        <div class="flex w-full content" style="padding-top: 1rem; padding-bottom: 1rem;">
+            <!-- Left Side -->
+            <div class="flex" style="width: 50%; justify-content: flex-start;">
+                <a href="#" class="text-lg font-bold transition" style="color: #f8fafc;">Muhammad Zaky Rahmadany</a>
+            </div>
+            <!-- Right Side -->
+            <div class="flex" style="width: 50%; justify-content: flex-end;">
+                <a href="./index.html" class="navbar text-lg font-bold transition" style="padding-right: 4rem;">Home</a>
+                <a href="./index.html#about" class="navbar text-lg font-bold transition" style="padding-right: 4rem;">About</a>
+                <a href="./index.html#portfolio" class="navbar text-lg font-bold transition" style="padding-right: 4rem;">Portfolio</a>
+                <a href="./index.html#blog" class="navbar text-lg font-bold transition" style="padding-right: 4rem;">Blog</a>
+                <!-- <a href="#contact" class="navbar text-lg font-bold transition" style="padding-right: 4rem;">Contact</a> -->
+                <!-- <button onclick="darkMode()">Dark Mode</button> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="">
+            <div class="flex w-full flex-wrap" style="">
+                <!-- Left Add -->
+                <div id="iklan" class="flex" style="width: 20%; background-color: #0d9488; justify-content: center; align-items: flex-start; top:0;">
+                    <!-- List -->
+                    <div class="flex w-full" style="justify-content: center; flex-wrap: wrap;">
+                        <!-- Space Iklan 1 -->
+                        <div class="c-blog-nd" style="width: 90%; margin: 2rem; height: 400px;">
+                            <a href="#">
+                                <p class="flex text-medium font-semibold c-paragraph-nd" style="padding: 9rem; text-align:center; justify-content: center; align-items: center;">Space<br>Iklan</p>
+                            </a>
+                        </div>
+                        <!-- Space Iklan 1 -->
+                        <div class="c-blog-nd" style="width: 90%; margin: 2rem; height: 400px;">
+                            <a href="#">
+                                <p class="flex text-medium font-semibold c-paragraph-nd" style="padding: 9rem; text-align:center; justify-content: center; align-items: center;">Space<br>Iklan</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Content -->
+                <div class="flex" style="width: 60%; justify-content: center; background-color: #ccfbf1; padding-bottom: 4rem;">
+                    <div style="padding-left: 4rem; padding-right: 4rem; ">
+                        <h4 style="margin-top: 4rem;"><a href="./index.html">Home</a> > <a href="#"><span class="font-bold" style="color: #0f172a;">Unix Command Line</span></a></h4>
+                        <img src="../file/img/ucl.jpeg" alt="Unix Command Line" width="100%" height="500px">
+                        <h1 style="">Unix Command Line</h1>
+                        <h2>A. Shell</h2>
+                        <p>Shell merupakan salah satu jenis program yang ada pada komputer untuk pengguna dapat berkomunikasi atau memerintahkan sistem operasi. Shell menurut jenis tampilannya dibagi menjadi dua yaitu Graphical User Interface (GPU) dan Command Line Interface (CLI)</p>
+                        <h2>B. Command Line Interface</h2>
+                        <p>CLI merupakan salah satu jenis aplikasi yang interaksinya hanya berbasis tulisan atau command untuk memerintahkan perangkat komputer dalam menjalankan suatu tugas tertentu.</p>
+                        <p>
+                            Berikut adalah beberapa contoh aplikasi yang berbasis CLI : <br> - sh<br> - bash<br> - zsh<br> - cmd.exe
+                        </p>
+                        <h2>C. Terminal Emulator</h2>
+                        <a href="../file/img/terminalEmu.png"><img src="../file/img/terminalEmu.png" alt="Terminal Emulator" width="700px" height="400px"></a>
+                        <p>Terminal Emulator merupakan sebuah program atau media yang menghubungkan antara pengguna dan komputer. Di terminal emulator inilah pengguna dapat mengetikan atau memberikan perintah pada komputer.</p>
+                        <h2>D. File System Structure</h2>
+                        <a href="../file/img/fileSystemStruktur.jpg"><img src="../file/img/fileSystemStruktur.jpg" alt="File System Struktur" width="400px" height="400px"></a>
+                        <p>File System Structure merupakan sebuah sistem file yang mengatur bagaimana data dapat disimpan dalam sistem operasi. Gambar di atas adalah contoh gambaran dari File System Structure yang ada pada OS Windows.</p>
+                        <h2>E. Command / Perintah CLI</h2>
+                        <p>Berikut adalah command atau perintah-perintah yang bisa kita jalankan dengan Command Line Interface (CLI) melalui Terminal Emulator untuk memerintahkan perangkat komputer dalam menjalankan tugas yang kita inginkan.</p>
+                        <p class="font-semibold">1. Melihat lokasi folder atau file yang sedang dibuka <br><h3>pwd</h3></p>
+                        <p class="font-semibold">2. Melihat isi folder <br><h3>ls</h3></p>
+                        <p class="font-semibold">3. Melihat isi file <br><h3>nano nama-file</h3></p>
+                        <p class="font-semibold">4. Berpindah folder <br><h3>cd nama-folder</h3></p>
+                        <p class="font-semibold">5. Membuat folder <br><h3>mkdir nama-folder</h3></p>
+                        <p class="font-semibold">6. Membuat file <br><h3>touch nama-file</h3></p>
+                        <p class="font-semibold">7. Menyalin folder atau file <br><h3>cp asal-file tujuan-file</h3></p>
+                        <p class="font-semibold">8. Memindahkan folder atau file <br><h3>mv asal-file tujuan-file</h3></p>
+                        <p class="font-semibold">9. Menghapus folder atau file <br><h3>rm asal-file tujuan-file</h3></p>
+                    </div>
+                </div>
+                <!-- Right Add -->
+                <div id="iklan" class="flex" style="width: 20%; background-color: #0d9488; justify-content: center; align-items: flex-start; top:0;">
+                    <!-- List -->
+                    <div class="flex w-full" style="justify-content: center; flex-wrap: wrap;">
+                        <!-- Space Iklan 1 -->
+                        <div class="c-blog-nd" style="width: 90%; margin: 2rem; height: 400px;">
+                            <a href="#">
+                                <p class="flex text-medium font-semibold c-paragraph-nd" style="padding: 9rem; text-align:center; justify-content: center; align-items: center;">Space<br>Iklan</p>
+                            </a>
+                        </div>
+                        <!-- Space Iklan 1 -->
+                        <div class="c-blog-nd" style="width: 90%; margin: 2rem; height: 400px;">
+                            <a href="#">
+                                <p class="flex text-medium font-semibold c-paragraph-nd" style="padding: 9rem; text-align:center; justify-content: center; align-items: center;">Space<br>Iklan</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section id="blog" style="background-color: #0f766e;">
+        <!-- Tittle -->
+        <div class="flex" style="justify-content: center;">
+            <h1 class="flex tittle w-full" style="justify-content: center; padding-top: 0.5rem; padding-left: 2rem; padding-right: 2rem; padding-bottom: 0.5rem; background-color: #0d9488; color: #f8fafc; opacity: 90%; margin-bottom: 4rem; ">OTHER BLOG</h1>
+        </div>
+        <!-- List -->
+        <div class="flex content w-full" style="justify-content: center; flex-wrap: wrap;">
+            <!-- Git & Github -->
+            <div class="c-blog-nd" style="width: 20%; margin: 2rem;">
+                <h4 class="sub-tittle" style="text-align: center; color: #f8fafc;">Git & Github</h4>
+                <img src="../file/img/github.png" alt="Github" width="100%" height="200px" style="">
+                <p class="text-medium font-semibold c-paragraph-nd" style="">Git Merupakan sebuah aplikasi yang digunakan oleh seorang developer sebagai alat yang dapat membantu developer untuk membuat sebuah Version Control System pada aplikasi yang akan dibuat.</p>
+                <div class="flex text-base font-semibold" style="justify-content: flex-end; align-items:center;">
+                    <button class="b-more-nd">
+                        <a href="./git.html">Read More</a>
+                    </button>
+                </div>
+            </div>
+            <!-- HTML -->
+            <div class="c-blog-nd" style="width: 20%; margin: 2rem;">
+                <h4 class="sub-tittle" style="text-align: center; color: #f8fafc;">HTML</h4>
+                <img src="../file/img/html.jpg" alt="Unix Command Line" width="100%" height="200px" style="">
+                <p class="text-medium font-semibold c-paragraph-nd" style="">HTML (HyperText Markup Language) merupakan bahasa markup standar yang digunakan untuk membuat dan menyusun halaman dan aplikasi web. Pada halaman website, HTML sendiri berperan sebagai kerangka atau struktur. Dengan HTML, developer dapat menampilkan beberapa konten seperti gambar, video, audio, teks, dan banyak lagi.</p>
+                <div class="flex text-base font-semibold" style="justify-content: flex-end; align-items:center;">
+                    <button class="b-more-nd">
+                        <a href="./html.html">Read More</a>
+                    </button>
+                </div>
+            </div>
+            <!-- CSS -->
+            <div class="c-blog-nd" style="width: 20%; margin: 2rem;">
+                <h4 class="sub-tittle" style="text-align: center; color: #f8fafc;">CSS</h4>
+                <img src="../file/img/css.jpg" alt="Unix Command Line" width="100%" height="200px" style="">
+                <p class="text-medium font-semibold c-paragraph-nd" style="">CSS (Cascading Style Sheets) merupakan bahasa yang digunakan untuk menentukan dan menghias tampilan dan format halaman pada website dan aplikasi web. Dengan CSS, developer dapat mengubah dan mengatur warna, font, tata letak, dan tampilan pada konten-konten.</p>
+                <div class="flex text-base font-semibold" style="justify-content: flex-end; align-items:center;">
+                    <button class="b-more-nd">
+                        <a href="./css.html">Read More</a>
+                    </button>
+                </div>
+            </div>
+            <!-- JavaScript -->
+            <div class="c-blog-nd" style="width: 20%; margin: 2rem;">
+                <h4 class="sub-tittle" style="text-align: center; color: #f8fafc;">JavaScript</h4>
+                <img src="../file/img/js.jpg" alt="JavaScript" width="100%" height="200px" style="">
+                <p class="text-medium font-semibold c-paragraph-nd" style="">JavaScript merupakan bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag script. Untuk mengecek bagaimana javascript berjalan pada browser, dapat dilihat dengan cara menekan kombinasi tombol ctrl + shift + i untuk membuka inspect element dan kemudian pilih console.</p>
+                <div class="flex text-base font-semibold" style="justify-content: flex-end; align-items:center;">
+                    <button class="b-more-nd">
+                        <a href="./js.html">Read More</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="copywriter" class="w-full text-copyright font-semibold" style="background-color: #e0f2fe; color: #075985; text-align:center; padding:0.5rem;">© Copyright MZR 2022</footer>
 </body>
 </html>
